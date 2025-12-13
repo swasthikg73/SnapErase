@@ -9,7 +9,7 @@ const BgSlider = () => {
   };
 
   return (
-    <div>
+    <div className="pb-10 md:py-20 mx-2">
       <h1 className="text-center text-2xl md:text-3xl lg:text-4xl mt-4 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent">
         Remove Background With High <br />
         Quality and Accuracy
@@ -25,7 +25,7 @@ const BgSlider = () => {
         />
         {/* Forward Imge */}
         <img
-          className="absolute top-0 left-0 h-full w-full "
+          className="absolute top-0 left-0 h-full w-full"
           src={assets.image_wo_bg}
           style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }} // inset:(Top, Right, Bottom, Left)
           alt=""

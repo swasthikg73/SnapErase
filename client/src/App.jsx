@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Result from "./pages/Result";
 import BuyCredit from "./pages/Buy";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="min-h-screen bg-slate-50">
@@ -13,6 +14,7 @@ function App() {
         <Route path="/result" element={<Result />} />
         <Route path="/buy" element={<BuyCredit />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
