@@ -4,8 +4,6 @@ import userModel from "../models/userModel.js";
 
 //http:localhost:3200/api/user/webhooks
 const clerkWebhooks = async (req, res) => {
-  console.log("Web hook Called-------------------------------");
-
   try {
     // Create a Svix instance with clerk webhook secret.
     const whook = new Webhook(process.env.CLERK_WEBHOOK_SECRET);
@@ -17,6 +15,15 @@ const clerkWebhooks = async (req, res) => {
     });
 
     const { data, type } = req.body;
+
+    console.log(
+      "Request-------------------------------------------------------------------------------------------------"
+    );
+    console.log(req.body);
+
+    console.log(
+      "-------------------------------------------------------------------------------------------------------------"
+    );
 
     switch (type) {
       case "user.created": {
