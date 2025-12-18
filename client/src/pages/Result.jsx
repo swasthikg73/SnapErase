@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { assets } from "../assets/assets.js";
+import { AppContext } from "../context/AppContext.jsx";
 
 const Result = () => {
+  const { image, setImage, removeBg, resultImage, setResultImage } =
+    useContext(AppContext);
+
   return (
     <div className="mx-4 my-3 lg:mx-44 mt-14 min-h-[75vh]">
       <div className="bg-white flex flex-col sm:grid grid-cols-2 gap-8 sm:px-15 px-4 py-10 rounded-lg">
