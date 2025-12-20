@@ -83,7 +83,7 @@ const BuyCredit = () => {
           <div
             key={index}
             className="bg-white drop-shadow-md rounded-lg flex flex-col gap-4 px-8 py-12 text-gray-700 hover:scale-105 transition-all duration-700">
-            <img width={40} src={assets.logo_icon} alt="" />
+            <img width={40} src={assets.logo2_icon} alt="" />
             <p className="mt-3 font-semibold">{plan.id}</p>
             <p className="text-sm">{plan.desc}</p>
             <p className="mt-6">
