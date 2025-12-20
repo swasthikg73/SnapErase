@@ -28,7 +28,7 @@ const BuyCredit = () => {
 
         try {
           const { data } = await axios.post(
-            "http://localhost:3200/api/user/verify-payment",
+            backendUrl + "/api/user/verify-payment",
             response,
             {
               headers: { token },
@@ -52,6 +52,8 @@ const BuyCredit = () => {
   };
 
   const paymentRazorPay = async (planId) => {
+    console.log(backendUrl + "/api/user/verify-payment");
+
     try {
       const token = await getToken();
 
