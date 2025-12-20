@@ -22,8 +22,6 @@ const BuyCredit = () => {
       order_id: order.id,
 
       handler: async (response) => {
-        console.log(response);
-
         var token = await getToken();
 
         try {
@@ -52,8 +50,6 @@ const BuyCredit = () => {
   };
 
   const paymentRazorPay = async (planId) => {
-    console.log(backendUrl + "/api/user/verify-payment");
-
     try {
       const token = await getToken();
 
