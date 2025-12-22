@@ -1,5 +1,4 @@
 SnapErase
-
 SnapErase is a powerful AI-based web application that allows users to instantly remove backgrounds from images with high accuracy. Built using the MERN stack, it integrates advanced AI services and modern authentication and payment systems to deliver a smooth user experience.
 
 🚀 Features
