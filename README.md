@@ -5,23 +5,35 @@ SnapErase is a powerful AI-based web application that allows users to instantly 
 🚀 Features
 
 ✂️ AI Background Removal using ClipDrop API
+
 🔐 Secure Authentication with Clerk
+
 💳 Online Payments via Razorpay
+
 ⚡ Fast & Responsive UI with Tailwind CSS
+
 🌐 Cloud Deployment on Vercel
+
 🖼️ Supports high-quality image processing
+
 
 🛠️ Tech Stack
 
 Frontend
+
 React.js
+
 Tailwind CSS
 
 Backend
 
+
 Node.js
+
 Express.js
+
 MongoDB
+
 
 AI & APIs
 
