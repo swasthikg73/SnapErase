@@ -13,16 +13,16 @@ const HeroSection = () => {
         <h1 className="text-4xl xl:text-5xl 2xl:text-6xl font-bold text-neutral-700 leading-tight">
           Remove the <br className="max-sm:hidden" />
           <span className="bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent">
-            bakground
+            background
           </span>{" "}
           from <br className="max-sm:hidden" />
           images for free.
         </h1>
 
         <p className="my-6 text-[15px] text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.{" "}
-          <br className="max-sm:hidden" /> illo odio libero praesentium et
-          accusamus voluptates in, ad laboriosam tenetur assumenda?
+          Upload your image and remove backgrounds instantly with clean,
+          high-quality results. <br className="max-sm:hidden" /> Fast, simple,
+          and perfect for product photos, profiles, and creative projects.
         </p>
 
         <div>
